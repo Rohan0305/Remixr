@@ -2,7 +2,8 @@
 # ![remixr](https://github.com/rtkg12/remixr/blob/master/client/public/logo.png)  
   
   
-Smart playlist generator for Spotify  
+### Description
+Remixr is a smart playlist generator for Spotify that helps users discover new music based on their existing preferences. By leveraging Spotify's powerful API, Remixr allows users to generate personalized playlists from their favorite tracks, artists, or playlists, while fine-tuning parameters like mood, energy, and popularity.
   
 ### Features - Spotify login  
 - Generate playlists based on artist, track or playlist seeds  
@@ -32,6 +33,7 @@ Smart playlist generator for Spotify
 ### Pre-requisites  
   
 1. Make a developer account at https://developer.spotify.com and obtain the `Client ID` and `Client Secret`  
+
 2. Update `client/.env` and `server/app.env` accordingly.
 
 |Property| Description  |
@@ -40,6 +42,21 @@ Smart playlist generator for Spotify
 |REACT_APP_TRACKING_ID|`optional` Google Analytics Tracking Id |
 |CLIENT_URL|Address of the client application|
 |REDIRECT_URI|Callback endpoint for Spotify authentication. `Note` Make sure this matches the Redirect URL in the Spotify API console|
+
+3. Go to the Node.js website and download the latest LTS version (which is the most stable). Node.js is required to run the JavaScript server and manage project dependencies.
+After installing, run the following command to ensure Node.js is installed:
+
+    node -v
+
+4. Download/Install Yarn: Yarn is a package manager used to install and manage dependencies. Install it globally by running:
+
+    npm install -g yarn
+
+Check Installation: After installation, run the following command to verify Yarn is installed:
+
+    yarn -v
+
+You should see the Yarn version printed (e.g., 1.x.x or 3.x.x).
 
 ### Installation
 
